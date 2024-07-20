@@ -1,3 +1,4 @@
+ 
 
 <div align="center">
   <br />
@@ -12,7 +13,7 @@
     <img src="https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logoColor=white&logo=node.js&color=339933" alt="node.js" />
     <img src="https://img.shields.io/badge/-Express-black?style=for-the-badge&logoColor=white&logo=express&color=000000" alt="express" />
     <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="mongodb" />
-    <img src="https://img.shields.io/badge/-OpenAI_API-black?style=for-the-badge&logoColor=white&logo=openai&color=412991" alt="openai-api" />
+    <img src="https://img.shields.io/badge/-Replicate_API-black?style=for-the-badge&logoColor=white&logo=replicate&color=412991" alt="replicate-api" />
   </div>
 
   <h3 align="center">ImageGenius: Full Stack AI Image Generator App</h3>
@@ -28,8 +29,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🖼️ [Assets](#assets)
-6. 🔗 [Links](#links)
+5. 🔗 [Links](#links)
 
 ## 🚨 Tutorial
 
@@ -41,7 +41,7 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
 
  
 ## <a name="introduction">🤖 Introduction</a>
-Welcome to ImageGenius! This AI-powered app generates stunning images based on user inputs. Built with React Native, Node.js, and MongoDB, and powered by the OpenAI API, ImageGenius ensures high performance, scalability, and creativity.
+Welcome to ImageGenius! This AI-powered app generates stunning images based on user inputs. Built with React Native, Node.js, and MongoDB, and powered by the Replicate API, ImageGenius ensures high performance, scalability, and creativity.
  
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 - **React Native**
@@ -49,10 +49,10 @@ Welcome to ImageGenius! This AI-powered app generates stunning images based on u
 - **Node.js**
 - **Express**
 - **MongoDB**
-- **OpenAI API**
+- **Replicate API**
  
 ## <a name="features"> 🔋 Features</a>
-👉 **AI-Powered Image Generation**: Create unique images based on user inputs using the OpenAI API.
+👉 **AI-Powered Image Generation**: Create unique images based on user inputs using the Replicate API.
 
 👉 **Responsive Design**: Optimized for any device, ensuring a seamless user experience.
 
@@ -82,7 +82,6 @@ git clone https://github.com/Abdullah0Dev/imageGenius.git
 cd imageGenius
 ```
 
-
 **Installation**
 
 Navigate to the `frontend` folder and install dependencies:
@@ -97,6 +96,14 @@ Navigate to the `backend` folder and install dependencies:
 ```bash
 cd ../backend
 npm install
+```
+
+**Environment Variables**
+
+Create a `.env` file in the `backend` directory and add the following:
+
+```
+export REPLICATE_API_TOKEN=your_replicate_api_key
 ```
 
 **Running the Backend**
@@ -119,6 +126,6 @@ npx react-native run-ios # For iOS
 
 Open the app on your simulator or real device to view the project.
  
-
 ## <a name="links">🔗 Links</a>
 - **🎨 Design** : [Figma App Design✍](https://www.figma.com/design/sALWpDNqeNmxMo1vSbJvze/AI-Image-Generator-Application-%7C-IOSA-%7C-Android-%7C-UI-Kit-(Community)-(Community)-(Community)?node-id=0-1&t=hcPRa2dPGw5xMPiR-1)
+- **Replicate Model URL**: [Replicate Model](https://replicate.com/bytedance/sdxl-lightning-4step) 
