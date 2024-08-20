@@ -1,6 +1,6 @@
  
 
-<div align="center">
+<div align="">
   <br />
     <a href="https://bit.ly/3LboNOQ" target="_blank">
       <img src="https://i.postimg.cc/QMzcjy35/ai-img-generator.png" alt="Project Banner">
